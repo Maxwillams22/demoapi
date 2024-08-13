@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    @PostMapping("/printJson")
+    @PostMapping()
     public void printJson(@RequestBody String json) {
 
         System.out.println("JSON recebido: " + json);
