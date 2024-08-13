@@ -9,6 +9,7 @@ public class DemoController {
 
     @PostMapping("/printJson")
     public void printJson(@RequestBody String json) {
+
         System.out.println("JSON recebido: " + json);
     }
 }
